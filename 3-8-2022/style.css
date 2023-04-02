@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-repeat:no-repeat;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: grey;
+    border-radius: 10px;
+    border: solid black 2px;
+    height: 30px;
+    width: 150px;
+}
+
+#on{
+    color: #ffc90e;
+}
+
+#off{
+    color: white;
+}
+
+img{
+    border: solid black 1px;
+    border-radius: 10%;
+    padding: 30px;
+}
