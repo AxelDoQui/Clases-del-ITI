@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabeceralogo{
+    background-color: lightcoral;
+}
+
+#menuprincipal{
+    background-color: lightcoral;
+}
+
+#menuprincipal li a{
+    color: beige;
+    align-items: center;
+    justify-content: left;
+    text-decoration: none;
+}

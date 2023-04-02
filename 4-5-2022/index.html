@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content=" Victor Dutra">
+    <link rel="icon" href="imagenes/icon1.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1 class="titulo">Trabajando con Formularios</h1>
+    <br>
+    <h2 class="titulo">Incluimos PHP</h2>
+    <form class="form" id="form" action = "form.php" method="get">
+        <h1 class="contact">Contacto</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre"  required  placeholder="Escriba su nombre aqui">
+
+        <label for="edad">Edad:</label>
+        <input type="text" name="edad"  required  placeholder="Escriba su edad aqui">
+
+        <label for="cumple">Fecha de Cumpleaños:</label>
+        <input type="datetime-local" name="cumple" required  id="Test_DatetimeLocal">
+
+        <label for="mail">Mail:</label>
+        <input type="text" name="mail"  required  placeholder="Escriba su mail aqui">
+
+        <label for="text">Mensaje:</label>
+        <textarea id="text" name="mensaje"  required placeholder="Escriba su mensaje aqui"></textarea>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

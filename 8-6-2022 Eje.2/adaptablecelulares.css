@@ -1,0 +1,22 @@
+@media only screen and (max-width:480px) and (min-height:667px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: blue;
+    }
+
+    section {
+        float: left;
+        width: 61%;
+        padding: 2%;
+        margin-right: 5%;
+        background-color: #999999;
+    }
+
+    aside {
+        float: left;
+        width: 26%;
+    }
+}

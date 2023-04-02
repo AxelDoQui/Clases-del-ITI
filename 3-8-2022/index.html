@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <h2>JavaScript cambiar los atributos de HTML</h2>
+        <p>En este JavaScript cambiando los valores de src por el atributo de imagen</p>
+        <button id="on" onclick="document.getElementById('myImage').src='ON.png'">Encender</button>
+            <img id="myImage" src="OFF.png" style="width:200px">
+        <button id="off" onclick="document.getElementById('myImage').src='OFF.png'">Apagar</button>
+    </div>
+    <!-- <script>
+        var newElement = document.createElement('div') newElement.id='nuevoElemento' 
+        newElement.className = 'bloque' 
+        newElement.style.property = 'background:red; width:200px; height:200px' 
+        var body = document.querySelector('body') body.appendChild(newElement)
+    </script> -->
+
+</body>
+
+</html>
